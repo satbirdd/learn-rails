@@ -1,7 +1,8 @@
 require 'test_helper'
 
 class PostTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  # TODO diff
+  # has_many :users, validate: true AND
+  # validates_associated :users AND
+  # validates :users, presence: true
 end
